@@ -1,0 +1,23 @@
+{
+  "name": "clubconnect",
+  "version": "1.0.0",
+  "description": "ClubConnect - Gestion des clubs universitaires",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx @tailwindcss/cli -i ./assets/css/input.css -o ./assets/css/style.css --watch",
+    "build": "npx @tailwindcss/cli -i ./assets/css/input.css -o ./assets/css/style.css --minify"
+  },
+  "keywords": [
+    "php",
+    "mysql",
+    "tailwindcss",
+    "clubconnect"
+  ],
+  "author": "Anass Rjeb",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.3",
+    "tailwindcss": "^4.3.3"
+  }
+}

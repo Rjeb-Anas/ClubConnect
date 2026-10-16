@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+/* =========================================================
+   FICHIERS PHP À SCANNER PAR TAILWIND
+========================================================= */
+
+@source "../../*.php";
+@source "../../includes/*.php";
+@source "../../admin/*.php";
+@source "../../manager/*.php";
+@source "../../student/*.php";
+
+/* Sous-dossiers supplémentaires */
+@source "../../admin/**/*.php";
+@source "../../manager/**/*.php";
+@source "../../student/**/*.php";
+
+/* =========================================================
+   AUTRES FICHIERS
+========================================================= */
+
+@source "../../*.html";
+@source "../../assets/**/*.js";
+@source "../../assets/**/*.html";
